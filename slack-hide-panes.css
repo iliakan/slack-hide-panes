@@ -27,7 +27,6 @@ body {
 
 .slack-hide-panes #col_messages {
 	width: 100vw !important;
-	display: block;
 }
 
 .slack-hide-panes #footer {
