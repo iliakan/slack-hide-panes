@@ -23,6 +23,7 @@ body {
 
 .slack-hide-panes #messages_container {
   margin-left: 0;
+  margin-bottom: 60px;
 }
 
 .slack-hide-panes #col_messages {
@@ -38,10 +39,6 @@ body {
 
 .slack-hide-panes #msgs_scroller_div {
     height: 100vh !important;
-    padding-bottom: 70px;
-}
-
-.slack-hide-panes #msgs_div {
     padding-bottom: 70px;
 }
 
