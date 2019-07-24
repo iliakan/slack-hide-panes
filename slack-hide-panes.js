@@ -3,7 +3,7 @@ document.addEventListener('keydown', function(e) {
     // F4
     toggle();
   }
-})
+});
 
 function toggle() {
   document.documentElement.classList.toggle('slack-hide-panes');

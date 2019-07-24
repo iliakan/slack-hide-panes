@@ -1,51 +1,7 @@
-body {
-    min-width: 100%;
-}
-
-/* hide top */
-.slack-hide-panes #client_body {
-  margin-top: 0;
-}
-
-.slack-hide-panes #client_header {
+.slack-hide-panes .p-classic_nav .p-classic_nav__team_header {
   display: none;
 }
 
-.slack-hide-panes .client_channels_list_container {
-  display: none;
-}
-
-/* hide left */
-.slack-hide-panes #col_channels_bg,
-.slack-hide-panes #col_channels {
-  display: none;
-}
-
-.slack-hide-panes #messages_container {
-  margin-left: 0;
-  margin-bottom: 60px;
-}
-
-.slack-hide-panes #col_messages {
-	width: 100vw !important;
-}
-
-.slack-hide-panes #footer {
-  width: 100%;
-  z-index: 100500;
-  position: absolute;
-  bottom: 0;
-}
-
-.slack-hide-panes #msgs_scroller_div {
-    height: 100vh !important;
-    padding-bottom: 70px;
-}
-
-.slack-hide-panes .dense_theme ts-message .message_gutter {
-  width: 3.5rem;
-}
-
-.slack-hide-panes .dense_theme ts-message .message_content {
-  margin-left: 3rem;
+.slack-hide-panes .p-workspace--context-pane-collapsed {
+  grid-template-columns: 0 auto;
 }
