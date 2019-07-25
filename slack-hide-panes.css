@@ -5,3 +5,7 @@
 .slack-hide-panes .p-workspace--context-pane-collapsed {
   grid-template-columns: 0 auto;
 }
+
+.slack-hide-panes .p-workspace--classic-nav .p-workspace__sidebar {
+  display: none;
+}
