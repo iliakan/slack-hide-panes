@@ -8,8 +8,7 @@
 
   "applications": {
     "gecko": {
-      "id": "slack-hide-pane@javascript.ru",
-      "strict_min_version": "45.0"
+      "id": "slack-hide-pane@javascript.ru"
     }
   },
 
