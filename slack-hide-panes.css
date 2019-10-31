@@ -9,3 +9,7 @@
 .slack-hide-panes .p-workspace--classic-nav .p-workspace__sidebar {
   display: none;
 }
+
+.slack-hide-panes .p-workspace__top_nav {
+  display: none;
+}
